@@ -1,0 +1,15 @@
+{
+    "name": "raphaeu/file",
+    "authors": [
+        {
+            "name": "Rafael Aguiar",
+            "email": "raphaeu.aguiar@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "raphaeu\\": "src/"
+        }
+    },
+}
