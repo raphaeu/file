@@ -6,11 +6,11 @@
             "email": "raphaeu.aguiar@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-4": {
             "raphaeu\\": "src/"
         }
-    },
-    "license":MIT
+    }
 }
