@@ -31,7 +31,13 @@ class File
 
     public function getData()
     {
+        if (empty($this->data) && $this->exist())
+        {
+            $this->read();            
+        }
         return $this->data;
+        
+            
     }
 
     public function setName($name = null)
